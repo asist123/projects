@@ -1,6 +1,9 @@
 
-export function TwitterFollowCard({formatUserName,username,name,isFollowing}){
-  const addAt=(username)=>`@${username}`
+export function TwitterFollowCard({username,name,isFollowing}){
+  console.log(isFollowing);
+
+  
+
     
     return(
     <article className='tw-followCard'>
