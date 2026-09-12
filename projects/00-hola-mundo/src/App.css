@@ -1,27 +1,27 @@
 
-tw-followCard{
+.tw-followCard{
     display: flex;
     align-items: center;
     color: #fff;
     font-size: .8rem;
 
 }
-tw-followCard-header{
+.tw-followCard-header{
     display: flex;
     align-items: center;
     gap:4px
 }
-tw-followCard-info{
+.tw-followCard-info{
     display: flex;
     flex-direction: column;
 
 }
-tw-followCard-header-infoUserName{
+.tw-followCard-header-infoUserName{
     opacity: .6;
 
 }
 
-tw-followCard-avatar{
+.tw-followCard-avatar{
     width: 48px;
     height: 48px;
     border-radius: 1000px;
@@ -29,7 +29,7 @@ tw-followCard-avatar{
 
 }
 
-article-button{
+.tw-followCard-button{
     margin-left: 16px;
     border: 0;
 }
